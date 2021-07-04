@@ -44,6 +44,7 @@
     border-radius: 5px;
     border: none;
     background-image: linear-gradient(to right, rgba(204, 113, 8, 0.884), rgba(250, 70, 38, 0.856));
+    cursor: pointer;
 }
 #dream_big{
     display: flex;
