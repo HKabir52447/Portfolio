@@ -27,7 +27,7 @@
     margin-bottom: 1rem;
 }
 .banner h3{
-    font-size: 1.5rem; 
+    font-size: 1.3rem; 
     margin-bottom: 1rem;
 }
 .banner img{
@@ -44,4 +44,47 @@
     border-radius: 5px;
     border: none;
     background-image: linear-gradient(to right, rgba(204, 113, 8, 0.884), rgba(250, 70, 38, 0.856));
+}
+#dream_big{
+    display: flex;
+}
+#dream_big h1{
+    color: rgba(230, 80, 21, 0.801);
+}
+#dream_big{
+    background-image: url(images/dream-bg.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#experience{
+    margin: 4rem 0;
+}
+#experience h3{
+    margin: 1rem 0;
+    color: rgba(230, 80, 21, 0.801);
+}
+.experience{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+.developer{
+    width: 45%;
+    margin: 2rem 4rem;
+    box-shadow: 8px 10px 30px gray;
+    padding: 4rem 3rem;
+    border-left: 8px solid;
+}
+.left_dev{
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.right_dev{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    margin: 5rem 0 1rem 0;
+    text-align: center;
 }
